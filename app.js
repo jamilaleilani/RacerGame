@@ -19,7 +19,7 @@ carMoving(65, purpleCar, "Purple");
 
 document.querySelector('h2').addEventListener('click', function() {
   console.log("reset")
-  blueCar.style.marginLeft = "0%";
-  redCar.style.marginLeft = "0%";
+  purpleCar.style.marginLeft = "0%";
+  orangeCar.style.marginLeft = "0%";
   document.querySelector("h1").innerHTML = "Racer Game";
 })
