@@ -13,8 +13,8 @@ function carMoving(letterVal, car, color) {
   })
 }
 
-carMoving(76, orangeCar, "Blue");
-carMoving(65, purpleCar, "Red");
+carMoving(76, orangeCar, "Orange");
+carMoving(65, purpleCar, "Purple");
 
 
 document.querySelector('h2').addEventListener('click', function() {
