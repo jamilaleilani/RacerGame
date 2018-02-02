@@ -3,7 +3,7 @@ var goldfish = document.getElementById("goldfish");
 
 function fishMoving(letterVal, fish, fishType) {
   fish.style.marginLeft = "0%";
-  document.addEventListener('keydown', function(whichKey) {
+  document.addEventListener('keyup', function(whichKey) {
     var fishMarginLeft = parseInt(fish.style.marginLeft, 10);
     if (whichKey.keyCode === letterVal && fishMarginLeft < 85) {
       fish.style.marginLeft = fishMarginLeft + 1 + "%";
