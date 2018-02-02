@@ -2,14 +2,18 @@
   font-size: 12px;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: futura, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
 }
 
 main {
-  border-right: 1em solid green;
   padding: 1em 0;
   background-color: rgb(80,120,160);
-  height: 100em;
+  background-image: url("png/seaweed.png");
+  background-repeat: no-repeat;
+  background-size: 6.5%;
+  background-position: bottom 0 right 0;
 }
 
 header {
@@ -18,7 +22,7 @@ header {
   flex-direction: row;
   align-items: center;
   padding: 3em;
-  height: 14em;
+  height: 16em;
 }
 
 section {
@@ -29,28 +33,37 @@ section {
 }
 h1 {
   color: white;
-  font-size: 5em;
+  font-size: 6em;
   display: inline-block;
+}
+
+p {
+  line-height: 1.5em;
+  font-size: 1.5em;
+  color: rgb(100,120,255);
 }
 
 h2 {
   text-decoration: none;
   font-size: 3em;
-  padding: 50px 22px;
+  padding: 1.5em 1em;
   color: white;
   background-color: rgb(255, 220, 0);
-  text-align: center;
   border-radius: 3em;
-  display: inline-block;
-  position: fixed;
+  position: absolute;
   right: 7%;
 
 }
 
+footer {
+  height: 100px;
+  background-color: tan;
+  z-index: 1;
+}
+
 div {
   width: 12%;
-}
-#shark {
+  z-index: 1;
   margin-bottom: 3em;
 }
 
