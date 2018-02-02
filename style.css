@@ -18,9 +18,6 @@ main {
 
 header {
   background-color: rgb(210,230,250);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 3em;
   height: 16em;
 }
@@ -28,13 +25,15 @@ header {
 section {
   display: flex;
   flex-direction: column;
-  width: 60%;
   text-align: center;
+  position: absolute;
+  right: 2em;
+  z-index: 1;
 }
+
 h1 {
   color: white;
   font-size: 6em;
-  display: inline-block;
 }
 
 p {
@@ -51,12 +50,12 @@ h2 {
   background-color: rgb(255, 220, 0);
   border-radius: 3em;
   position: absolute;
-  right: 7%;
+  top: 1em;
 
 }
 
 footer {
-  height: 100px;
+  height: 200px;
   background-color: tan;
   z-index: 1;
 }
