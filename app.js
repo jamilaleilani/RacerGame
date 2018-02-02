@@ -7,7 +7,7 @@ function fishMoving(letterVal, fish, fishType) {
     var fishMarginLeft = parseInt(fish.style.marginLeft, 10);
     if (whichKey.keyCode === letterVal && fishMarginLeft < 85) {
       fish.style.marginLeft = fishMarginLeft + 1 + "%";
-    } else if (fishMarginLeft >= 85 && document.querySelector("h1").innerHTML == "Shark vs Goldfish") {
+    } else if (fishMarginLeft >= 85 && document.querySelector("h1").innerHTML == "SHARK vs GOLDFISH") {
       document.querySelector("h1").style.color = "magenta";
       document.querySelector("h1").innerHTML = fishType +" wins!";
     }
@@ -23,5 +23,5 @@ document.querySelector('h2').addEventListener('click', function() {
   shark.style.marginLeft = "0%";
   goldfish.style.marginLeft = "0%";
   document.querySelector("h1").style.color = "white";
-  document.querySelector("h1").innerHTML = "Shark vs Goldfish";
+  document.querySelector("h1").innerHTML = "SHARK vs GOLDFISH";
 })
