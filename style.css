@@ -19,13 +19,17 @@ header {
   align-items: center;
   padding: 3em;
   height: 10em;
-
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  text-align: center;
+}
 h1 {
   color: white;
   font-size: 5em;
-  text-align: center;
   display: inline-block;
 }
 
@@ -53,5 +57,5 @@ div {
 }
 
 #orangeCar {
-  background-color: rgb(255,150,100);
+  background-color: rgb(255,200,140);
 }
