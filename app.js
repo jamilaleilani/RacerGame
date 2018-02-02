@@ -19,7 +19,7 @@ carMoving(76, goldfish, "Goldfish");
 
 document.querySelector('h2').addEventListener('click', function() {
   console.log("reset")
-  purpleCar.style.marginLeft = "0%";
-  orangeCar.style.marginLeft = "0%";
+  shark.style.marginLeft = "0%";
+  goldfish.style.marginLeft = "0%";
   document.querySelector("h1").innerHTML = "Racer Game";
 })
