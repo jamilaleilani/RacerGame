@@ -1,0 +1,57 @@
+* {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+main {
+  margin: 2em 0;
+  border-right: 1em solid turquoise;
+  padding: 1em 0;
+}
+
+header {
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3em;
+  height: 10em;
+
+}
+
+h1 {
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  display: inline-block;
+}
+
+h2 {
+  text-decoration: none;
+  font-size: 3em;
+  padding: 50px 22px;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  border-radius: 3em;
+  display: inline-block;
+  position: fixed;
+  right: 7%;
+
+}
+
+div {
+  width: 8em;
+  padding: 4em 0;
+  margin: 4em 0;
+}
+#purpleCar {
+  background-color: rgb(210,200,255);
+  margin-bottom: 8em;
+}
+
+#orangeCar {
+  background-color: rgb(255,150,100);
+}
