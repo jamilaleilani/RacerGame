@@ -12,7 +12,7 @@ main {
   background-color: rgb(80,120,180);
   background-image: url("png/seaweed.png");
   background-repeat: no-repeat;
-  background-size: 6.5%;
+  background-size: 8em;
   background-position: bottom 0 right 0;
 }
 
@@ -61,7 +61,7 @@ footer {
 }
 
 div {
-  width: 14%;
+  width: 17em;
   z-index: 1;
   margin-bottom: .2em;
 }
